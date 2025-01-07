@@ -36,10 +36,10 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="#" class="rounded-md bg-[#132A13] px-3 py-2 text-sm font-medium text-white" aria-current="page">Dashboard</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Team</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-            <a href="cadastroVoluntarios.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendar</a>
+            <a href="cadastroVoluntarios.html" class="rounded-md bg-[#132A13] px-3 py-2 text-sm font-medium text-white" aria-current="page">Cadastre-se</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Time</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projetos</a>
+            <a href="cadastroVoluntarios.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Calendário</a>
           </div>
         </div>
       </div>
@@ -114,10 +114,10 @@
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="#">Open roles <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Internship program <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Meet our leadership <span aria-hidden="true">&rarr;</span></a>
+        <a href="#main">Ações <span aria-hidden="true">&rarr;</span></a>
+        <a href="#">Programas <span aria-hidden="true">&rarr;</span></a>
+        <a href="#">Nossos valores <span aria-hidden="true">&rarr;</span></a>
+        <a href="#">Conheça nossos líderes <span aria-hidden="true">&rarr;</span></a>
       </div>
       <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
         <div class="flex flex-col-reverse gap-1">
@@ -151,10 +151,10 @@
  MAIN
  MAIN -->
 
-<main>
+<main id ="main">
 <section class="dias bg-[#e7f59e] pb-[100px] mb-0">
   <p class= 'text-center text-[#0000009c] font-bold p-[55px] text-[25px]'> Aqui você encontra nossos principais trabalhos voluntários.</p>
-  <div class="cards">
+  <div  class="cards">
             <!-- inicio dos cards-->
     <div class="flex justify-center gap-6 flex-wrap  mx-auto mb-10 w-auto"> <!-- caixinha com os nomes + icones -->
                
@@ -227,20 +227,22 @@
  FOOTER
  FOOTER -->
 <footer>
-<div class="bg-white py-24 sm:py-32 mt-0">
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <h2 class="text-center text-lg/8 font-semibold text-gray-900">Trusted by the world’s most innovative teams</h2>
-    <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="../img/fas_logo.png" alt="Transistor" width="158" height="48">
-      <img class="col-span-2 max-h-16 w-full object-contain lg:col-span-1" src="../img/logo_ibdn.jpg" alt="Reform" width="158" height="48">
-      <img class="col-span-2 max-h-16 w-full object-contain lg:col-span-1" src="../img/logo_WWF.png" alt="Tuple" width="158" height="48">
-      <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="../img/logo_SOSMATAATLANTICA.jpg" alt="SavvyCal" width="158" height="48">
-      <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="../img/logo_INST.LIXOZERO.png" alt="SavvyCal" width="158" height="48">
-      <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="../img/plasticpollutioncoalition_logo.png" alt="Statamic" width="158" height="48">
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <!-- Título com margem inferior maior -->
+      <h2 class="text-center text-lg/8 font-semibold text-gray-900 mb-10">ONGs associadas</h2>
+      <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+        <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="../img/fas_logo.png" alt="Transistor" width="158" height="48">
+        <img class="col-span-2 max-h-16 w-full object-contain lg:col-span-1" src="../img/logo_ibdn.jpg" alt="Reform" width="158" height="48">
+        <img class="col-span-2 max-h-16 w-full object-contain lg:col-span-1" src="../img/logo_WWF.png" alt="Tuple" width="158" height="48">
+        <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="../img/logo_SOSMATAATLANTICA.jpg" alt="SavvyCal" width="158" height="48">
+        <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="../img/logo_INST.LIXOZERO.png" alt="SavvyCal" width="158" height="48">
+        <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="../img/plasticpollutioncoalition_logo.png" alt="Statamic" width="158" height="48">
+      </div>
     </div>
   </div>
-</div>
 </footer>
+
 
 
 
